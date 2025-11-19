@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg, #f2f6ff 0%, #e2ecff 100%);
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.pricing {
+width: 300px;
+margin: 20px;
+background-color: #fff;
+box-shadow: 0 0 10px #ccc;
+padding: 24px;
+text-align: left;
+border-radius: 12px;
+}
+
+.title {
+font-size: 22px;
+font-weight: bold;
+margin: 0 0 8px;
+}
+
+.price {
+font-size: 18px;
+color: green;
+margin: 0 0 16px;
+}
+
+.features {
+list-style: none;
+padding-left: 0;
+margin: 0 0 16px;
+}
+
+.features li {
+padding: 4px;
+border-bottom: 1px solid #eee;
+}
+
+.btn {
+background: blue;
+color: white;
+padding: 10px 20px;
+border: none;
+margin-top: 10px;
+border-radius: 6px;
+cursor: pointer;
+width: 100%;
+font-size: 16px;
+}
+
+.btn:hover {
+background: darkblue;
+transition: background 0.2s ease-in-out;
+}
+</style>
+</head>
+<body>
+
+<div class="pricing">
+<h2 class="title">Basic Plan</h2>
+<p class="price">$9.99 /month</p>
+
+<ul class="features">
+<li>1 GB Storage</li>
+<li>Basic Support</li>
+<li>All Core Features</li>
+</ul>
+
+<button class="btn">Start Trial</button>
+</div>
+
+</body>
+</html>
